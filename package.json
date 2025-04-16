@@ -2,16 +2,23 @@
   "name": "SneakerAI",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true,
   "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.8.4",
     "sass": "^1.86.3",
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
     "vite": "^6.3.0"
   }
 }
